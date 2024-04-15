@@ -1,0 +1,39 @@
+/* InputField.css */
+
+/* Styling for the container wrapper */
+.inputFieldWrapper {
+    margin-bottom: 10px;
+  }
+
+  /* Styling for the label element */
+  .inputLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Styling for the input field */
+  .inputField {
+    width: 100%;
+    padding: 6px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+
+  /* Styling for the input field when focused */
+  .inputField:focus {
+    outline: none;
+    border-color: #d28100;
+    box-shadow: 0 0 1px #d28100;
+  }
+
+  /* Styling for the input field error message */
+  .inputErrorWrapper {
+    color:crimson;
+    padding-top: 10px;
+    font-size: 15px;
+    height: 25px;
+  }
